@@ -37,26 +37,24 @@ const ServiceCard = ({
 export default function ServicesOverview() {
   const services = [
     {
-      title: "AI Automation Services",
+      title: "AI Automation",
       description:
-        "Transform your business operations with intelligent automation solutions tailored to your needs.",
+        "Slow, manual processes could be costing you time and money. We can help you by:",
       benefits: [
-        "Streamline repetitive tasks and workflows",
-        "Implement intelligent decision-making systems",
-        "Enhance customer experience with AI-powered interactions",
-        "Reduce operational costs and improve efficiency",
+        " Prioritizing your most repetitive, expensive or painful processes and automating them",
+        "Building intelligent automations that free you up to focus on more important things",
+        "Implementing secure, custom AI solutions that help you scale and move faster",
       ],
       icon: <CodeBracketIcon className="w-7 h-7 text-blue-600" />,
     },
     {
-      title: "Data Services",
+      title: "Data Integration",
       description:
-        "Unlock the power of your data with comprehensive analytics and insights solutions.",
+        "Even if your data is messy and scattered, we'll help you bring it all into one place. Then we:",
       benefits: [
-        "Advanced data analytics and visualization",
-        "Predictive modeling and forecasting",
-        "Data cleaning and transformation",
-        "Real-time monitoring and reporting",
+        " Combine business context and data analysis to generate deep insights from your data ",
+        "Set up reports, dashboards and visualizations that YOUR business needs",
+        "Automate tedious, repetitive and error-prone reporting processes",
       ],
       icon: <ChartBarIcon className="w-7 h-7 text-blue-600" />,
     },
@@ -66,10 +64,6 @@ export default function ServicesOverview() {
     <section className="pt-4 pb-16 px-4 max-w-7xl mx-auto">
       <div className="text-center mb-14">
         <h2 className="text-4xl font-bold mb-5">Our Services</h2>
-        <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-          Empowering your business with cutting-edge AI automation and data
-          services
-        </p>
       </div>
       <div className="grid md:grid-cols-2 gap-8">
         {services.map((service, index) => (

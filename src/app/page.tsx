@@ -15,13 +15,13 @@ export default function Home() {
                 Transform Your Business with
               </span>
               <span className="block text-blue-600 mt-4">
-                AI & Data Solutions
+                AI Automations & Data Solutions
               </span>
             </h1>
             <p className="mt-8 text-xl sm:text-2xl text-gray-600 max-w-3xl mx-auto lg:mx-0 leading-relaxed">
-              We help businesses automate operations and unlock insights through
-              cutting-edge AI technology and data analytics. Turn your data into
-              decisions.
+              We help businesses by organizing and making sense of their data,
+              automating manual processes, and building custom AI solutions that
+              drive impact and results.
             </p>
             <div className="mt-14 flex gap-6 justify-center lg:justify-start">
               <a
