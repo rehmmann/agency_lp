@@ -2,6 +2,7 @@ import ServicesOverview from "@/components/ServicesOverview";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactExperts from "@/components/ContactExperts";
+import FAQ from "@/components/FAQ";
 
 export default function Home() {
   return (
@@ -42,6 +43,8 @@ export default function Home() {
         </div>
 
         <ServicesOverview />
+
+        <FAQ />
 
         {/* Add the contact section with an id that matches the href in your "Get Started" button */}
         <div id="contact">
