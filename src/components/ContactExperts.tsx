@@ -45,8 +45,8 @@ export default function ContactExperts() {
         <div className="text-center mb-10">
           <h2 className="text-4xl font-bold mb-4">Talk to Our Experts</h2>
           <p className="text-lg text-gray-600">
-            Ready to transform your business? Let's discuss how we can help you
-            automate and optimize your processes.
+            Ready to transform your business? Let&apos;s discuss how we can help
+            you automate and optimize your processes.
           </p>
         </div>
 
@@ -133,7 +133,7 @@ export default function ContactExperts() {
 
           {submitStatus === "success" && (
             <p className="text-green-600 text-center">
-              Thank you! We'll get back to you soon.
+              Thank you! We&apos;ll get back to you soon.
             </p>
           )}
           {submitStatus === "error" && (
