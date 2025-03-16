@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactExperts from "@/components/ContactExperts";
 import FAQ from "@/components/FAQ";
+import CaseStudies from "@/components/CaseStudies";
 
 export default function Home() {
   return (
@@ -43,6 +44,8 @@ export default function Home() {
         </div>
 
         <ServicesOverview />
+
+        <CaseStudies />
 
         <FAQ />
 
