@@ -107,11 +107,11 @@ export default function MarketingFunnelCase() {
               </h2>
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                 <p>
-                  Our client, a legal services consulting business, uses "Master
-                  Class" webinars as their primary channel for generating new
-                  business. But as they grew and wanted to do more of these,
-                  managing the events and the leads from them was becoming
-                  painful.
+                  Our client, a legal services consulting business, uses
+                  &ldquo;Master Class&rdquo; webinars as their primary channel
+                  for generating new business. But as they grew and wanted to do
+                  more of these, managing the events and the leads from them was
+                  becoming painful.
                 </p>
                 <p>
                   They would create invitations, send out to their contacts via

@@ -109,13 +109,13 @@ export default function MarketingBudgetsCase() {
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                 <p>
                   Our client, a boutique marketing agency, used a very tedious,
-                  manual process of managing their clients' budgets.
+                  manual process of managing their clients&apos; budgets.
                 </p>
                 <p>
-                  They would create a "master" budget across all clients for the
-                  year, and then manually copy those into a new spreadsheet for
-                  each client and manually create monthly budgets for each
-                  client based on the annuals.
+                  They would create a &ldquo;master&rdquo; budget across all
+                  clients for the year, and then manually copy those into a new
+                  spreadsheet for each client and manually create monthly
+                  budgets for each client based on the annuals.
                 </p>
                 <p>
                   This process was painstaking and a huge time sink. Worst of

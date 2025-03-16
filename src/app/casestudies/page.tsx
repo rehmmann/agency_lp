@@ -1,10 +1,11 @@
 "use client";
 
-import { useRouter, useSearchParams } from "next/navigation";
+import { Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import MarketingBudgetsCase from "./MarketingBudgetsCase";
 import MarketingFunnelCase from "./MarketingFunnelCase";
 
-export default function CaseStudyPage() {
+function CaseStudyContent() {
   const searchParams = useSearchParams();
   const caseType = searchParams.get("case");
 
@@ -17,4 +18,12 @@ export default function CaseStudyPage() {
   }
 
   return null;
+}
+
+export default function CaseStudyPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <CaseStudyContent />
+    </Suspense>
+  );
 }
