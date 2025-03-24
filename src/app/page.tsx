@@ -28,10 +28,10 @@ export default function Home() {
             </p>
             <div className="mt-14 flex gap-6 justify-center lg:justify-start">
               <a
-                href="#contact"
+                href="/book"
                 className="rounded-full bg-blue-600 px-8 py-4 text-base font-semibold text-white shadow-lg hover:bg-blue-500 transition-colors"
               >
-                Get Started
+                Book a Call
               </a>
               <a
                 href="#services"
@@ -43,7 +43,9 @@ export default function Home() {
           </div>
         </div>
 
-        <ServicesOverview />
+        <div id="services">
+          <ServicesOverview />
+        </div>
 
         <CaseStudies />
 
