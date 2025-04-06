@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI & Data Services Agency | Your Agency Name",
+  title: "RobustFlow | AI & Data Solutions",
   description:
     "Professional AI automation and data services to transform your business. We specialize in custom AI solutions and comprehensive data analytics.",
   keywords:
     "AI automation, data services, data analytics, artificial intelligence, business automation",
   openGraph: {
-    title: "AI & Data Services Agency | Your Agency Name",
+    title: "RobustFlow | AI & Data Solutions",
     description:
       "Professional AI automation and data services to transform your business",
     type: "website",

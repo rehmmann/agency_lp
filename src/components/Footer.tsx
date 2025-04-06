@@ -39,7 +39,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="col-span-2 md:col-span-3 lg:col-span-1">
             <Link href="/" className="text-xl font-bold text-gray-900">
-              Data & Automation Agency
+              RobustFlow
             </Link>
             <p className="mt-4 text-gray-600 max-w-xs">
               Transforming businesses through AI automation and data-driven
@@ -108,7 +108,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="mt-12 pt-8 border-t border-gray-200">
           <p className="text-base text-gray-400 text-center">
-            © {currentYear} Your Agency. All rights reserved.
+            © {currentYear} RobustFlow. All rights reserved.
           </p>
         </div>
       </div>

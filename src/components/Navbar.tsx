@@ -21,8 +21,29 @@ export default function Navbar() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <Link href="/" className="-m-1.5 p-1.5 text-xl font-bold">
-            Data & Automations Agency
+          <Link
+            href="/"
+            className="-m-1.5 p-1.5 flex items-center space-x-2 text-2xl font-extrabold"
+          >
+            <svg
+              className="h-8 w-8 text-blue-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              />
+            </svg>
+            <div className="flex items-center">
+              <span className="bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
+                Robust
+              </span>
+              <span className="text-gray-900">Flow</span>
+            </div>
           </Link>
         </div>
 
